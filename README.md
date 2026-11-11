@@ -2,6 +2,17 @@
 
 A polished mini portfolio featuring HTML and CSS exercises built around Lithuanian geography, weather, and creative layout design.
 
+## Project preview
+
+### Home page
+![Weather in Lithuania homepage](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/index.html)
+
+### Seasonal overview section
+![Seasonal Overview](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/weather_clean.html)
+
+### Gallery and weather table section
+![Weather table and gallery](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/weather_clean.html)
+
 ## Included pages
 
 - `index.html` — professional landing page showcasing all projects
@@ -40,4 +51,3 @@ This project demonstrates:
 - responsive design patterns
 - styling variation with alternate themes
 - attention to readability and visual hierarchy
-
