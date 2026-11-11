@@ -4,14 +4,18 @@ A polished mini portfolio featuring HTML and CSS exercises built around Lithuani
 
 ## Project preview
 
+The preview links below open the actual HTML pages. The previous README used `.html` files as Markdown image sources, but browsers can only display image files (such as PNG, JPG, or SVG) in an image embed. Since this repository does not currently contain screenshot files, linking to the pages avoids broken image placeholders.
+
 ### Home page
-![Weather in Lithuania homepage](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/index.html)
+[Open the Lithuania weather homepage](index.html)
 
 ### Seasonal overview section
-![Seasonal Overview](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/weather_clean.html)
+[Open the seasonal overview page](weather_clean.html)
 
 ### Gallery and weather table section
-![Weather table and gallery](https://raw.githubusercontent.com/Sudharshan-Anand-Rajamoorthy/lithuania-html-css-website/main/weather_clean.html)
+[Open the weather table and gallery page](weather_clean.html)
+
+To show screenshots here instead, capture each page and add the resulting image files (for example, under `assets/`), then embed them with paths such as `![Home page screenshot](assets/homepage.png)`.
 
 ## Included pages
 
