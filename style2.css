@@ -1,0 +1,108 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #8c9fae;
+    color: #1a252f;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.site-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-header h1 {
+    font-size: 2.5rem;
+    color: #111827;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #c0cbdb;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card {
+    background: #e2e8f0;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+}
+
+h2 {
+    text-align: center;
+    color: #0f172a;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    text-align: center;
+    color: #1e293b;
+    margin-top: 15px;
+}
+
+.season-block {
+    background: #f1f5f9;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.responsive-img {
+    width: 45%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #94a3b8;
+}
+
+.weather-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+.weather-table th {
+    background-color: #475569;
+    color: white;
+    padding: 10px;
+    border: 1px solid #334155;
+}
+
+.weather-table td {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+.weather-table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.weather-table tr:hover {
+    background-color: #cbd5e1;
+}
+
+.nav-link, .external-links a, .back-to-top {
+    color: #1e40af;
+    font-weight: bold;
+}
+
+.site-footer {
+    text-align: center;
+    margin-top: 20px;
+}

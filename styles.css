@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lithuania HTML & CSS Showcase</title>
+    <meta
+      name="description"
+      content="Professional HTML and CSS showcase project featuring Lithuania geography and weather pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar container">
+        <div class="brand">Portfolio</div>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">HTML & CSS Portfolio</p>
+          <h1>Building polished web experiences with structure, style, and precision.</h1>
+          <p class="lead">
+            This showcase demonstrates clean semantic HTML, responsive layouts, visual hierarchy,
+            and thoughtful CSS design for real-world web content.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#projects">View Projects</a>
+            <a class="secondary-btn" href="exercise1.html">Open Exercise 1</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-card glass">
+            <span class="panel-label">Skill Focus</span>
+            <ul>
+              <li>Semantic HTML</li>
+              <li>Responsive CSS</li>
+              <li>Typography & spacing</li>
+              <li>Layout & composition</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <div class="section-heading">
+          <p class="eyebrow">About this work</p>
+          <h2>Showcasing my front-end fundamentals</h2>
+        </div>
+        <p>
+          The collection below includes multiple web design exercises focused on semantic structure,
+          content hierarchy, color styling, and responsive presentation. Each page reflects a
+          different design approach while staying consistent with strong front-end practices.
+        </p>
+      </section>
+
+      <section id="projects" class="projects container">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>HTML & CSS exercises</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="project-card">
+            <div class="card-header">
+              <span class="badge">Exercise 1</span>
+              <h3>Lithuania Overview</h3>
+            </div>
+            <p>Country profile page with rich text, image, lists, and a flag table.</p>
+            <a href="exercise1.html">Open project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-header">
+              <span class="badge">Exercise 2</span>
+              <h3>Weather in Lithuania</h3>
+            </div>
+            <p>Seasonal content page with infographic styling, linked references, and a weather table.</p>
+            <a href="exercise2.html">Open project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-header">
+              <span class="badge">Exercise 3</span>
+              <h3>CSS Practice Layout</h3>
+            </div>
+            <p>Modern CSS styling exercise with a highlighted text block and multi-column layout.</p>
+            <a href="exercise3.html">Open project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-header">
+              <span class="badge">Exercise 4</span>
+              <h3>Clean Weather Theme</h3>
+            </div>
+            <p>Clean, polished landing page with two alternate styles: soft modern and slate blue.</p>
+            <a href="weather_clean.html">Open project</a>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
